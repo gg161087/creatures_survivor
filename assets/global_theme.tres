@@ -1,0 +1,16 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://bmtyghw1lbp47"]
+
+[ext_resource type="FontFile" uid="uid://ba84gteppkl0l" path="res://assets/fonts/TitanOne-Regular.ttf" id="1_2b7w7"]
+[ext_resource type="Texture2D" uid="uid://b72iy0s3khvkx" path="res://assets/ui/panels/PanelWindow.png" id="2_2yqrh"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2plkl"]
+texture = ExtResource("2_2yqrh")
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+
+[resource]
+default_font = ExtResource("1_2b7w7")
+Button/fonts/font = ExtResource("1_2b7w7")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_2plkl")
